@@ -9,5 +9,5 @@ function MyApp({ Component, pageProps }: AppProps) {
 	);
 }
 
-//6.1 what is Prisma 할차례
+//6.5 push to planetScale 할차례
 export default MyApp;
