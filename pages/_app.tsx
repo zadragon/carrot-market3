@@ -9,5 +9,5 @@ function MyApp({ Component, pageProps }: AppProps) {
 	);
 }
 
-//6.6  할차례2
+//6.8  할차례2
 export default MyApp;
