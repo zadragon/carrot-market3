@@ -18,7 +18,7 @@ const Enter: NextPage = () => {
 	const onVaild = (data: EnterForm) => {
 		console.log(data);
 	};
-	const onInVaild = (data) => {
+	const onInVaild = (data: EnterForm) => {
 		console.log(data);
 	};
 
