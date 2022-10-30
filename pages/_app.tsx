@@ -9,5 +9,5 @@ function MyApp({ Component, pageProps }: AppProps) {
 	);
 }
 
-//8.3  할차례 : 22.10.29
+//8.4  할차례 : 22.10.30
 export default MyApp;
