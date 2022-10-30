@@ -19,22 +19,13 @@ const Enter: NextPage = () => {
 	const onEmailClick = () => setMethod("email");
 	const onPhoneClick = () => setMethod("phone");
 
-	const onVaild = (data: EnterForm) => {
-		setSubmitting(true);
-		fetch("/api/users/enter", {
-			method: "POST",
-			body: JSON.stringify(data),
-			headers: {
-				"Content-Type": "application/json",
-			},
-		}).then(() => setSubmitting(false));
-
-		//enter(data);
+	const onVaild = (validForm: EnterForm) => {
+		enter(validForm);
 	};
 	const onInVaild = (data: EnterForm) => {
 		console.log(data);
 	};
-
+	console.log(loading, data, error);
 	return (
 		<div className="mt-16 px-4">
 			<h3 className="text-3xl font-bold text-center">Enter to Carrot</h3>
